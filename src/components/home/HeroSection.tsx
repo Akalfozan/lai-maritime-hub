@@ -20,9 +20,8 @@ const HeroSection = () => {
             </span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-            Engineering Excellence for Australia's Naval Future
-          </h1>
+          <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">Discover Our Services
+Contact Our</h1>
           
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8">Some information.</p>
 
