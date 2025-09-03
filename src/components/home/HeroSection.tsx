@@ -2,17 +2,11 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, Shield, Globe } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import heroImage from '@/assets/hero-vessel.jpg';
-
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img
-          src={heroImage}
-          alt="Naval vessel at sea"
-          className="w-full h-full object-cover"
-        />
+        <img src={heroImage} alt="Naval vessel at sea" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-transparent" />
       </div>
 
@@ -30,9 +24,7 @@ const HeroSection = () => {
             Engineering Excellence for Australia's Naval Future
           </h1>
           
-          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8">
-            Supporting sovereign shipbuilding capability with world-class maritime solutions backed by NVL's heritage of 1,000+ vessels delivered globally.
-          </p>
+          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8">Some information.</p>
 
           <div className="flex flex-col sm:flex-row gap-4">
             <Link to="/services">
@@ -70,8 +62,6 @@ const HeroSection = () => {
           <div className="w-1 h-3 bg-primary-foreground/50 rounded-full mt-2" />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
