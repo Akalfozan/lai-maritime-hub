@@ -14,10 +14,10 @@ const About = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-5xl font-bold text-foreground mb-6">
-                About LAI
+                About Luerssen Australia
               </h1>
               <p className="text-xl text-muted-foreground">
-                Building on Lürssen's 140-year legacy, we deliver world-class maritime solutions
+                A subsidiary of NVL Group, supporting Australia's sovereign shipbuilding strategy since 2017
               </p>
             </div>
           </div>
@@ -33,17 +33,19 @@ const About = () => {
                   <span className="text-primary font-semibold">OUR MISSION</span>
                 </div>
                 <h2 className="text-4xl font-bold text-foreground mb-6">
-                  Precision, Reliability, and Speed in Maritime Asset Support
+                  Supporting Australia's Sovereign Shipbuilding Strategy
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6">
-                  At Lürssen Australia International (LAI), we are committed to delivering 
-                  precision, reliability, and speed in maritime asset support, building on 
-                  over 140 years of Lürssen's global shipbuilding and repair expertise.
+                  Founded in May 2017, Luerssen Australia was established as a subsidiary of NVL 
+                  (Naval Vessels Lürssen) to pursue the SEA 1180 contract and regional export 
+                  opportunities. We operate from the Australian Marine Complex in Henderson, 
+                  Western Australia.
                 </p>
                 <p className="text-muted-foreground mb-8">
-                  Our mission is to ensure that every vessel we service operates at peak 
-                  performance, meeting the highest standards of safety, efficiency, and 
-                  operational readiness.
+                  NVL Group, headquartered in Bremen, Germany, brings together renowned Northern 
+                  German shipyards with a heritage dating back to the late 1870s. Together, the 
+                  shipyards of NVL have completed more than 1,000 naval and coastguard vessels, 
+                  serving the German Navy and fleets in over 50 countries worldwide.
                 </p>
                 <Link to="/services">
                   <Button variant="default" size="lg" className="group">
@@ -69,9 +71,9 @@ const About = () => {
                 </div>
                 <div className="bg-card p-6 rounded-lg shadow-lg">
                   <Award className="h-10 w-10 text-primary mb-4" />
-                  <h3 className="font-semibold text-foreground mb-2">Heritage</h3>
+                  <h3 className="font-semibold text-foreground mb-2">NVL Heritage</h3>
                   <p className="text-sm text-muted-foreground">
-                    Backed by Lürssen's century-long maritime excellence
+                    Part of the renowned NVL Group with 150 years of shipbuilding excellence
                   </p>
                 </div>
                 <div className="bg-card p-6 rounded-lg shadow-lg">
@@ -91,11 +93,11 @@ const About = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-foreground mb-4">
-                Global Presence, Local Expertise
+                Part of a Global Network
               </h2>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Strategic locations across key maritime regions enable rapid response 
-                and comprehensive support for our international client base.
+                Established in 2017 to support Australia's sovereign shipbuilding capability 
+                while leveraging NVL Group's global expertise and proven track record.
               </p>
             </div>
 
@@ -104,20 +106,20 @@ const About = () => {
                 <div className="bg-primary text-primary-foreground w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                   AU
                 </div>
-                <h3 className="font-semibold text-foreground mb-2">Australia HQ</h3>
+                <h3 className="font-semibold text-foreground mb-2">Australia Operations</h3>
                 <p className="text-muted-foreground">
-                  Henderson, Western Australia<br />
-                  Primary operations and engineering center
+                  Australian Marine Complex<br />
+                  Henderson, Western Australia
                 </p>
               </div>
               <div className="text-center">
                 <div className="bg-secondary text-secondary-foreground w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
-                  ME
+                  DE
                 </div>
-                <h3 className="font-semibold text-foreground mb-2">Middle East</h3>
+                <h3 className="font-semibold text-foreground mb-2">NVL Headquarters</h3>
                 <p className="text-muted-foreground">
-                  Riyadh, Saudi Arabia<br />
-                  Regional hub for GCC operations
+                  Bremen, Germany<br />
+                  Group headquarters and engineering hub
                 </p>
               </div>
               <div className="text-center">

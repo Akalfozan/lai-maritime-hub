@@ -35,8 +35,8 @@ const Navigation = () => {
           <Link to="/" className="flex items-center space-x-2">
             <Anchor className="h-8 w-8 text-primary" />
             <div>
-              <div className="text-xl font-bold text-foreground">LAI</div>
-              <div className="text-xs text-muted-foreground">Lürssen Australia International</div>
+              <div className="text-xl font-bold text-foreground">Luerssen Australia</div>
+              <div className="text-xs text-muted-foreground">NVL Group</div>
             </div>
           </Link>
 

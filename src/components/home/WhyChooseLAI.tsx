@@ -4,18 +4,18 @@ import shipyardImage from '@/assets/shipyard.jpg';
 const features = [
   {
     icon: Award,
-    title: 'Lürssen Heritage',
-    description: 'Backed by over 140 years of global shipbuilding and repair excellence',
+    title: 'NVL Heritage',
+    description: 'Part of NVL Group with 1,000+ naval and coastguard vessels completed since 1870s',
   },
   {
     icon: Users,
     title: 'Expert Teams',
-    description: 'Experienced multinational teams with defense-grade certifications',
+    description: 'Local Australian expertise backed by German engineering excellence',
   },
   {
     icon: Globe2,
-    title: 'Regional Presence',
-    description: 'Strong operational footprint across GCC and international markets',
+    title: 'Strategic Location',
+    description: 'Operating from Australian Marine Complex in Henderson, Western Australia',
   },
 ];
 
@@ -27,11 +27,11 @@ const WhyChooseLAI = () => {
           {/* Content */}
           <div>
             <h2 className="text-4xl font-bold text-foreground mb-6">
-              Why Choose LAI
+              Why Choose Luerssen Australia
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              When operational readiness and asset reliability are mission-critical, 
-              partner with the maritime industry's most trusted name.
+              Combining Australian sovereign capability with NVL Group's proven expertise in 
+              delivering maritime solutions to over 50 countries worldwide.
             </p>
 
             <div className="space-y-6">
@@ -79,8 +79,9 @@ const WhyChooseLAI = () => {
               className="rounded-lg shadow-2xl"
             />
             <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground p-6 rounded-lg shadow-xl">
-              <div className="text-4xl font-bold">140+</div>
-              <div className="text-sm">Years of Excellence</div>
+              <div className="text-4xl font-bold">1,000+</div>
+              <div className="text-sm">Vessels Delivered</div>
+              <div className="text-xs opacity-80 mt-1">NVL Group</div>
             </div>
           </div>
         </div>

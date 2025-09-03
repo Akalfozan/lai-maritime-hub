@@ -22,16 +22,16 @@ const HeroSection = () => {
           <div className="flex items-center space-x-2 mb-6">
             <Shield className="h-5 w-5 text-secondary" />
             <span className="text-primary-foreground/90 text-sm font-medium">
-              DEFENSE-GRADE MARITIME SOLUTIONS
+              NVL GROUP - NAVAL VESSELS LÜRSSEN
             </span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-            Engineering Reliability at Sea
+            Engineering Excellence for Australia's Naval Future
           </h1>
           
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8">
-            Specialists in maritime repair, maintenance, and defense-grade asset support.
+            Supporting sovereign shipbuilding capability with world-class maritime solutions backed by NVL's heritage of 1,000+ vessels delivered globally.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -55,7 +55,7 @@ const HeroSection = () => {
               <span className="text-primary-foreground/80 text-sm">Global Operations</span>
             </div>
             <div className="text-primary-foreground/80 text-sm">
-              140+ Years Heritage
+              Since 2017
             </div>
             <div className="text-primary-foreground/80 text-sm">
               24/7 Support

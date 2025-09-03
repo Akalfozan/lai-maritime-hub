@@ -11,12 +11,12 @@ const Footer = () => {
             <div className="flex items-center space-x-2">
               <Anchor className="h-8 w-8" />
               <div>
-                <div className="text-xl font-bold">LAI</div>
-                <div className="text-xs opacity-80">Lürssen Australia International</div>
+                <div className="text-xl font-bold">Luerssen Australia</div>
+                <div className="text-xs opacity-80">Part of NVL Group</div>
               </div>
             </div>
             <p className="text-sm opacity-90">
-              Engineering reliability at sea with over 140 years of maritime excellence.
+              Supporting Australia's sovereign shipbuilding strategy with world-class maritime solutions backed by NVL's heritage of over 1,000 naval vessels delivered globally.
             </p>
           </div>
 
@@ -42,12 +42,13 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Global Offices</h3>
             <div className="space-y-3">
               <div className="text-sm">
-                <p className="font-medium">Australia HQ</p>
-                <p className="opacity-90">Henderson, Western Australia</p>
+                <p className="font-medium">Australia</p>
+                <p className="opacity-90">Australian Marine Complex</p>
+                <p className="opacity-90">Henderson, WA</p>
               </div>
               <div className="text-sm">
-                <p className="font-medium">Middle East</p>
-                <p className="opacity-90">Riyadh, Saudi Arabia</p>
+                <p className="font-medium">NVL Headquarters</p>
+                <p className="opacity-90">Bremen, Germany</p>
               </div>
             </div>
           </div>
@@ -84,7 +85,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-primary-light/20 text-center text-sm opacity-80">
-          <p>© {new Date().getFullYear()} Lürssen Australia International (LAI). All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Luerssen Australia Pty Ltd. Part of NVL Group. All rights reserved.</p>
         </div>
       </div>
     </footer>

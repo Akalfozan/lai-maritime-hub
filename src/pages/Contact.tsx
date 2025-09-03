@@ -21,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
     toast({
       title: 'Message Sent',
-      description: 'Thank you for contacting LAI. We will respond within 24 hours.',
+      description: 'Thank you for contacting Luerssen Australia. We will respond within 24 hours.',
     });
     setFormData({ name: '', email: '', organization: '', message: '' });
   };
@@ -166,8 +166,9 @@ const Contact = () => {
                     <div className="flex items-start space-x-3">
                       <MapPin className="h-5 w-5 text-primary mt-0.5" />
                       <div>
-                        <div className="font-medium text-foreground">Australia HQ</div>
+                        <div className="font-medium text-foreground">Australia Operations</div>
                         <div className="text-sm text-muted-foreground">
+                          Australian Marine Complex<br />
                           Henderson, Western Australia
                         </div>
                       </div>
