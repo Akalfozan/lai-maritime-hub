@@ -7,7 +7,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <Anchor className="h-8 w-8" />
+              
               <div>
                 <div className="text-xl font-bold">Luerssen Australia</div>
                 <div className="text-xs opacity-80">
@@ -56,7 +56,7 @@ const Footer = () => {
                 <span>info@lai.com</span>
               </a>
               <a href="tel:+61000000000" className="flex items-center space-x-2 text-sm opacity-90 hover:opacity-100 transition-opacity">
-                <Phone className="h-4 w-4" />
+                
                 <span>+61 XXX XXX XXX</span>
               </a>
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-sm opacity-90 hover:opacity-100 transition-opacity">
