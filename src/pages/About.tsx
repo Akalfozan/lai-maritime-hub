@@ -33,17 +33,17 @@ const About = () => {
                   <span className="text-primary font-semibold">OUR MISSION</span>
                 </div>
                 <h2 className="text-4xl font-bold text-foreground mb-6">
-                  Supporting Australia's Sovereign Shipbuilding Strategy
+                  international things 
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6">
                   Founded in May 2017, Luerssen Australia was established as a subsidiary of NVL 
                   (Naval Vessels Lürssen) to pursue the SEA 1180 contract and regional export 
                   opportunities. We operate from the Australian Marine Complex in Henderson, 
-                  Western Australia.
+                  Western Australia."to be changed "
                 </p>
                 <p className="text-muted-foreground mb-8">
-                  NVL Group, headquartered in Bremen, Germany, brings together renowned Northern 
-                  German shipyards with a heritage dating back to the late 1870s. Together, the 
+                 LAI Group, headquartered in Riyadh, Germany, brings together renowned Northern 
+                   shipyards with a heritage dating back to the late 1870s. Together, the 
                   shipyards of NVL have completed more than 1,000 naval and coastguard vessels, 
                   serving the German Navy and fleets in over 50 countries worldwide.
                 </p>
