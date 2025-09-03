@@ -30,19 +30,7 @@ const WhyChooseLAI = () => {
             <div className="space-y-6">
               {features.map((feature, index) => {
               const Icon = feature.icon;
-              return <div key={index} className="flex items-start space-x-4">
-                    <div className="flex-shrink-0">
-                      <Icon className="h-6 w-6 text-primary mt-1" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-1">
-                        {feature.title}
-                      </h3>
-                      <p className="text-muted-foreground">
-                        {feature.description}
-                      </p>
-                    </div>
-                  </div>;
+              return;
             })}
             </div>
 
