@@ -1,9 +1,7 @@
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail, Linkedin, Anchor } from 'lucide-react';
-
 const Footer = () => {
-  return (
-    <footer className="bg-primary text-primary-foreground">
+  return <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -12,7 +10,8 @@ const Footer = () => {
               <Anchor className="h-8 w-8" />
               <div>
                 <div className="text-xl font-bold">Luerssen Australia</div>
-                <div className="text-xs opacity-80">Part of NVL Group</div>
+                <div className="text-xs opacity-80">
+              </div>
               </div>
             </div>
             <p className="text-sm opacity-90">
@@ -24,16 +23,11 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              {['Home', 'Services', 'About', 'News', 'Contact'].map((item) => (
-                <li key={item}>
-                  <Link
-                    to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
-                    className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-                  >
+              {['Home', 'Services', 'About', 'News', 'Contact'].map(item => <li key={item}>
+                  <Link to={item === 'Home' ? '/' : `/${item.toLowerCase()}`} className="text-sm opacity-90 hover:opacity-100 transition-opacity">
                     {item}
                   </Link>
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
 
@@ -57,26 +51,15 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Contact</h3>
             <div className="space-y-3">
-              <a
-                href="mailto:info@lai.com"
-                className="flex items-center space-x-2 text-sm opacity-90 hover:opacity-100 transition-opacity"
-              >
+              <a href="mailto:info@lai.com" className="flex items-center space-x-2 text-sm opacity-90 hover:opacity-100 transition-opacity">
                 <Mail className="h-4 w-4" />
                 <span>info@lai.com</span>
               </a>
-              <a
-                href="tel:+61000000000"
-                className="flex items-center space-x-2 text-sm opacity-90 hover:opacity-100 transition-opacity"
-              >
+              <a href="tel:+61000000000" className="flex items-center space-x-2 text-sm opacity-90 hover:opacity-100 transition-opacity">
                 <Phone className="h-4 w-4" />
                 <span>+61 XXX XXX XXX</span>
               </a>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center space-x-2 text-sm opacity-90 hover:opacity-100 transition-opacity"
-              >
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-sm opacity-90 hover:opacity-100 transition-opacity">
                 <Linkedin className="h-4 w-4" />
                 <span>LinkedIn</span>
               </a>
@@ -88,8 +71,6 @@ const Footer = () => {
           <p>© {new Date().getFullYear()} Luerssen Australia Pty Ltd. Part of NVL Group. All rights reserved.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
