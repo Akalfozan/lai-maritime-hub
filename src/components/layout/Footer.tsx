@@ -9,14 +9,12 @@ const Footer = () => {
             <div className="flex items-center space-x-2">
               
               <div>
-                <div className="text-xl font-bold">Luerssen Australia</div>
+                <div className="text-xl font-bold">Luerssen Australia International</div>
                 <div className="text-xs opacity-80">
               </div>
               </div>
             </div>
-            <p className="text-sm opacity-90">
-              Supporting Australia's sovereign shipbuilding strategy with world-class maritime solutions backed by NVL's heritage of over 1,000 naval vessels delivered globally.
-            </p>
+            <p className="text-sm opacity-90">Company info to be added </p>
           </div>
 
           {/* Quick Links */}
@@ -36,14 +34,12 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Global Offices</h3>
             <div className="space-y-3">
               <div className="text-sm">
-                <p className="font-medium">Australia</p>
-                <p className="opacity-90">Australian Marine Complex</p>
-                <p className="opacity-90">Henderson, WA</p>
+                <p className="font-medium">Saudi Arabia</p>
+                <p className="opacity-90">Riyadh</p>
+                <p className="opacity-90">2nd Floor – Mazzaya Building, King Saud Road
+P.O.Box 8843, Riyadh 11482.</p>
               </div>
-              <div className="text-sm">
-                <p className="font-medium">NVL Headquarters</p>
-                <p className="opacity-90">Bremen, Germany</p>
-              </div>
+              
             </div>
           </div>
 

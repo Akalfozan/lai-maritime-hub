@@ -15,9 +15,7 @@ const HeroSection = () => {
         <div className="max-w-3xl">
           <div className="flex items-center space-x-2 mb-6">
             <Shield className="h-5 w-5 text-secondary" />
-            <span className="text-primary-foreground/90 text-sm font-medium">
-              NVL GROUP - NAVAL VESSELS LÜRSSEN
-            </span>
+            <span className="text-primary-foreground/90 text-sm font-medium">LAI</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">Discover Our Services
@@ -43,11 +41,9 @@ Contact Our</h1>
           <div className="mt-12 flex items-center space-x-8">
             <div className="flex items-center space-x-2">
               <Globe className="h-5 w-5 text-secondary" />
-              <span className="text-primary-foreground/80 text-sm">Global Operations</span>
+              <span className="text-primary-foreground/80 text-sm">Riyadh, Saudi Arabia</span>
             </div>
-            <div className="text-primary-foreground/80 text-sm">
-              Since 2017
-            </div>
+            <div className="text-primary-foreground/80 text-sm">Since"to be added"</div>
             <div className="text-primary-foreground/80 text-sm">
               24/7 Support
             </div>

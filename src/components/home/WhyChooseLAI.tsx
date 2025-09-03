@@ -19,13 +19,8 @@ const WhyChooseLAI = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div>
-            <h2 className="text-4xl font-bold text-foreground mb-6">
-              Why Choose Luerssen Australia
-            </h2>
-            <p className="text-lg text-muted-foreground mb-8">
-              Combining Australian sovereign capability with NVL Group's proven expertise in 
-              delivering maritime solutions to over 50 countries worldwide.
-            </p>
+            <h2 className="text-4xl font-bold text-foreground mb-6">Why Choose Luerssen Australia Interna</h2>
+            <p className="text-lg text-muted-foreground mb-8">T</p>
 
             <div className="space-y-6">
               {features.map((feature, index) => {
@@ -54,9 +49,12 @@ const WhyChooseLAI = () => {
           <div className="relative">
             <img src={shipyardImage} alt="LAI Shipyard Operations" className="rounded-lg shadow-2xl" />
             <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground p-6 rounded-lg shadow-xl">
-              <div className="text-4xl font-bold">1,000+</div>
+              <div className="text-4xl font-bold">Number to be added+</div>
               <div className="text-sm">Vessels Delivered</div>
-              <div className="text-xs opacity-80 mt-1">NVL Group</div>
+              <div className="text-xs opacity-80 mt-1">
+
+
+            </div>
             </div>
           </div>
         </div>
