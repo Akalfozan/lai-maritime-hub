@@ -55,9 +55,6 @@ const Navigation = () => {
                 {link.label}
               </Link>
             ))}
-            <Button variant="default" size="lg">
-              Get Quote
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -91,9 +88,6 @@ const Navigation = () => {
                 {link.label}
               </Link>
             ))}
-            <Button variant="default" size="lg" className="w-full mt-4">
-              Get Quote
-            </Button>
           </div>
         )}
       </div>
