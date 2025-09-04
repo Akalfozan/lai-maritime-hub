@@ -3,22 +3,16 @@ import Footer from '@/components/layout/Footer';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Globe, Users, Award, Target } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
 const About = () => {
-  return (
-    <>
+  return <>
       <Navigation />
       <main>
         {/* Hero Section */}
         <section className="pt-32 pb-20 bg-gradient-surface">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-5xl font-bold text-foreground mb-6">
-                About Luerssen Australia
-              </h1>
-              <p className="text-xl text-muted-foreground">
-                A subsidiary of NVL Group, supporting Australia's sovereign shipbuilding strategy since 2017
-              </p>
+              <h1 className="text-5xl font-bold text-foreground mb-6">About Luerssen Australia International</h1>
+              <p className="text-xl text-muted-foreground">A subsidiary of Group, supporting Australia's sovereign shipbuilding strategy since 2017</p>
             </div>
           </div>
         </section>
@@ -137,8 +131,6 @@ const About = () => {
         </section>
       </main>
       <Footer />
-    </>
-  );
+    </>;
 };
-
 export default About;
