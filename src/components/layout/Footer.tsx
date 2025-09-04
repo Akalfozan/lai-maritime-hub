@@ -64,7 +64,7 @@ P.O.Box 8843, Riyadh 11482.</p>
         </div>
 
         <div className="mt-12 pt-8 border-t border-primary-light/20 text-center text-sm opacity-80">
-          <p>© {new Date().getFullYear()} Luerssen Australia Pty Ltd. Part of NVL Group. All rights reserved.</p>
+          
         </div>
       </div>
     </footer>;
