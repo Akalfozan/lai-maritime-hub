@@ -23,7 +23,7 @@ const About = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <div className="flex items-center space-x-2 mb-4">
-                  <Target className="h-5 w-5 text-primary" />
+                  
                   <span className="text-primary font-semibold">OUR MISSION</span>
                 </div>
                 <h2 className="text-4xl font-bold text-foreground mb-6">
@@ -60,8 +60,7 @@ const About = () => {
                   <Users className="h-10 w-10 text-secondary mb-4" />
                   <h3 className="font-semibold text-foreground mb-2">Expert Teams</h3>
                   <p className="text-sm text-muted-foreground">
-                    Multinational specialists with defense-grade certifications
-                  </p>
+                </p>
                 </div>
                 <div className="bg-card p-6 rounded-lg shadow-lg">
                   <Award className="h-10 w-10 text-primary mb-4" />
