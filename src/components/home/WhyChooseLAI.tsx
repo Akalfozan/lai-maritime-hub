@@ -32,7 +32,7 @@ const WhyChooseLAI = () => {
                       </div>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-foreground mb-1">{feature.title}</h3>
+                      
                       
                     </div>
                   </div>;
